@@ -1,0 +1,14 @@
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/bin/Debug/netcoreapp2.1/ApiFidelizacao1.deps.json
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/bin/Debug/netcoreapp2.1/ApiFidelizacao1.runtimeconfig.json
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/bin/Debug/netcoreapp2.1/ApiFidelizacao1.runtimeconfig.dev.json
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/bin/Debug/netcoreapp2.1/ApiFidelizacao1.dll
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/bin/Debug/netcoreapp2.1/ApiFidelizacao1.pdb
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.csprojAssemblyReference.cache
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.csproj.CoreCompileInputs.cache
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.RazorAssemblyInfo.cache
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.RazorAssemblyInfo.cs
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.AssemblyInfoInputs.cache
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.AssemblyInfo.cs
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.RazorTargetAssemblyInfo.cache
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.dll
+/home/gustavo/Documentos/AspCore/ApiFidelizacao1/obj/Debug/netcoreapp2.1/ApiFidelizacao1.pdb
