@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public  class Valor
+    public partial class Valor
     {
         public int NumeroCartao { get; set; }
         public decimal Valor1 { get; set; }

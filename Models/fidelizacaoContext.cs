@@ -2,16 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-
 namespace ApiFidelizacao1.Models
 {
     public partial class fidelizacaoContext : DbContext
     {
+        
+
         public fidelizacaoContext(DbContextOptions<fidelizacaoContext> options)
             : base(options)
         {
         }
-        // dotnet ef dbcontext scaffold "Server=localhost;Database=fidelizacao;User=root;Password=7227234888Gg;" "Pomelo.EntityFrameworkCore.MySql" -o Models
+
         public virtual DbSet<Cartao> Cartao { get; set; }
         public virtual DbSet<Cliente> Cliente { get; set; }
         public virtual DbSet<Empresa> Empresa { get; set; }

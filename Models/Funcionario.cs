@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public  class Funcionario
+    public partial class Funcionario
     {
         public Funcionario()
         {

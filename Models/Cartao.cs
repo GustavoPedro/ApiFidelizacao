@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public  class Cartao
+    public partial class Cartao
     {
         public int NumeroCartao { get; set; }
         public DateTime DataVencimento { get; set; }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public  class Selo
+    public partial class Selo
     {
         public int NumeroCartao { get; set; }
         public int Frequencia { get; set; }

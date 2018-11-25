@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public  class Historicopontos
+    public partial class Historicopontos
     {
         public int CartaoNumeroCartao { get; set; }
         public DateTime Data { get; set; }

@@ -29,12 +29,17 @@ namespace ApiFidelizacao1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-             services.AddDbContextPool<fidelizacaoContext>( // replace "YourDbContext" with the class name of your DbContext
+            //dotnet ef dbcontext scaffold "Server=localhost;Database=fidelizacao;User=root;Password=7227234888Gg;" "Pomelo.EntityFrameworkCore.MySql" -o Models
+             services.AddDbContextPool<fidelizacaoContext>(
                 options => options.UseMySql("Server=localhost;Database=fidelizacao;User=root;Password=7227234888Gg;", (m) =>
                     {
                         m.ServerVersion(new Version(5, 7, 17), ServerType.MySql);
                     }
             ));
+             services.AddMvc()
+        .AddJsonOptions(
+            options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+        );
         }
 
         // Configure requisições HTTP / Middleware.

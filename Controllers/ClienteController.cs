@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApiFidelizacao1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiFidelizacao1.Controllers
 {
@@ -21,7 +22,6 @@ namespace ApiFidelizacao1.Controllers
         public ActionResult<List<Cliente>> GetClientes()
         {
             return _context.Cliente.ToList();
-
         }
 
         // GET seleciona todos clientes por cpf

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ApiFidelizacao1.Models
 {
-    public class Cliente
+    public partial class Cliente
     {
         public Cliente()
         {
