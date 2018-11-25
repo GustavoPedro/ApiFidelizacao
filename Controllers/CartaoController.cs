@@ -28,8 +28,7 @@ namespace ApiFidelizacao1.Controllers
         public ActionResult<List<Cartao>> GetCartoesPorId(int id)
         {
             return  _context.Cartao
-            .Where(cod => cod.NumeroCartao == id).ToList();
-            
+            .Where(cod => cod.NumeroCartao == id).ToList();            
             
         }
 

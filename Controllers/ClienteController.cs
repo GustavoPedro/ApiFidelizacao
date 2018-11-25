@@ -28,7 +28,12 @@ namespace ApiFidelizacao1.Controllers
         [HttpGet("{cpf}", Name="GetClientes")]
         public ActionResult<List<Cliente>> GetClientesPorCpf(string cpf)
         {
-            return  _context.Cliente.Where(cli => cli.Cpf == cpf).ToList();            
+            return  _context.Cliente.Where(cli => cli.Cpf == cpf)
+            .Include(c => c.Cartao)
+                .ThenInclude(f => f.IdFuncionarioNavigation)                
+            .Include(c => c.Cartao)
+                .ThenInclude(f => f.IdEmpresaNavigation)
+            .ToList();
         }
 
         // POST api/values
